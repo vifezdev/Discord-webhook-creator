@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discohook Webhook Sender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Support Server</a></li>
+                <li><a href="#">Discord Bot</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="user-avatar">
+                    <img src="user-avatar.png" alt="im not implementing accs but iyw u can">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="editor-section">
+            <h1>Discohook Webhook Sender</h1>
+            <div class="form-group">
+                <label for="webhook-url">Webhook URL:</label>
+                <input type="url" id="webhook-url" required>
+            </div>
+            <div class="form-group">
+                <label for="content">Content (optional):</label>
+                <textarea id="content" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="enable-embed">
+                    <input type="checkbox" id="enable-embed" checked> Enable Embed
+                </label>
+            </div>
+            <div class="embed-options">
+                <div class="form-group">
+                    <label for="author">Author:</label>
+                    <input type="text" id="author">
+                </div>
+                <div class="form-group">
+                    <label for="icon-url">Icon URL:</label>
+                    <input type="url" id="icon-url">
+                </div>
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title">
+                </div>
+                <div class="form-group">
+                    <label for="title-url">Title URL:</label>
+                    <input type="url" id="title-url">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="color">Color (hex):</label>
+                    <input type="text" id="color" placeholder="#7289da">
+                </div>
+                <div class="form-group">
+                    <label for="image-url">Image URL:</label>
+                    <input type="url" id="image-url">
+                </div>
+                <div class="form-group">
+                    <label for="thumbnail-url">Thumbnail URL:</label>
+                    <input type="url" id="thumbnail-url">
+                </div>
+                <div class="form-group">
+                    <label for="footer-text">Footer Text:</label>
+                    <input type="text" id="footer-text">
+                </div>
+                <div class="form-group">
+                    <label for="footer-icon-url">Footer Icon URL:</label>
+                    <input type="url" id="footer-icon-url">
+                </div>
+            </div>
+            <button id="send-btn">Send</button>
+        </div>
+        <div class="preview-section">
+            <h1>Embed Preview</h1>
+            <div class="discord-embed" id="embed-preview">
+                <!-- Preview content will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
