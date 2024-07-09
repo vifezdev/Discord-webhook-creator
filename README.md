@@ -19,12 +19,11 @@ Steps:
 I just thought it'd be a pretty fun project to work on.
 
 # Requirements
-HTML
-CSS
-[Node JS](https://www.geeksforgeeks.org/installation-of-node-js-on-windows/)
+- HTML
+- CSS
+- [Node JS](https://www.geeksforgeeks.org/installation-of-node-js-on-windows/)
 
 # Usage rights
-This is probably the only source code where you can do whatever you want with it
-If you use this please provide credits for using my code as a base for your project.
+- Just follow the [license](https://github.com/vifezdev/Discord-webhook-creator?tab=License-1-ov-file).
 
 # Enjoy!
