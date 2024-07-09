@@ -2,7 +2,7 @@
 Create your own webhook site using this base
 
 # Description
-This is a simplified version of the website [Discohook](https://discohook.org)I have developed this incase anybody would like to create their
+This is a simplified version of the website [Discohook](https://discohook.org), I have developed this incase anybody would like to create their
 own version of that website using this base or just to mess around with the tool!
 
 # How to use
